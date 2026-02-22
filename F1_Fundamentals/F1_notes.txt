@@ -1,0 +1,27 @@
+A computer is a machine that follows instructions
+
+3 importane compenents in hardware:
+More RAM = Can run more apps simultaneously (bigger table).
+Faster CPU = Apps run faster (smarter brain).
+More Storage = Can keep more photos, videos, and apps (bigger shelf).
+
+A program is a set of instructions that tells the computer what to do
+
+A bug is a mistake in the program. When the instructions are wrong, the computer does the wrong thing.
+Debugging is the process of finding and fixing bugs.
+
+An INTERPRETER is like a TRANSLATOR that converts your Python code into something the computer understands.
+
+=====================
+EXTENSION:
+An EXTENSION is like an add-on that makes VS Code better for Python.
+
+Advantages:
+1. LINTING is like a spell-checker for code. It finds mistakes before you run your program.
+2. FORMATTING is making your code look neat and organized.
+
+=================
+CODE FLOW in VS CODE
+=======
+Code -> Interpreter -> Bytecode -> Virtual Machine -> Result
+

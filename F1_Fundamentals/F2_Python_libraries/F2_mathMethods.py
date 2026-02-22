@@ -23,8 +23,8 @@ print(prod(array)) #840
 print(len(fruits))
 
 #5.
-print(any(bool_list)) #True
-print(all(bool_list)) #False
+print(any(bool_list)) #True if amy element is true
+print(all(bool_list)) #True if all elements are True
 
 #6. count of element in list
 print(array.count(5)) #1
