@@ -1,0 +1,14 @@
+	
+Points to breakdown patterns:
+--------------------------------------
+    
+    1.	Understand the outer loop first. Decide how many rows the pattern has because the outer loop always represents rows.
+	2.	For each row, break the pattern into parts like spaces, stars, or numbers instead of thinking about the full shape.
+	3.	Write the pattern manually for a small value like n = 3 or n = 4 and observe how each row changes.
+	4.	Count how many spaces and how many stars (or numbers) appear in each row.
+	5.	Find the formula for each part based on the row index i, such as n - i - 1, i + 1, 2*i + 1, or n - i.
+	6.	Once you find the formulas, translate them into inner loops using range.
+	7.	Remember that everything depends on the row number i, so always ask what changes when i increases.
+	8.	For complex patterns like diamonds, divide them into two simpler patterns such as a pyramid and an inverted pyramid.
+	9.	If the output is wrong, print the row number and calculated counts to debug logically instead of guessing.
+	10.	Practice regularly but do not spend too much time on patterns; they are mainly for improving loop thinking and logic clarity.
