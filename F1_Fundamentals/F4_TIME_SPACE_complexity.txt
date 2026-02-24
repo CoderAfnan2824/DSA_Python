@@ -1,0 +1,43 @@
+Time Complexity: The amount of time an algorithm takes to complete as a function of the input size. It provides a way to quantify the efficiency of an algorithm by expressing how the execution time grows as the input size increases.
+
+This rate of change is what defines the time complexity of an algorithm. Time complexity is often measured using Big O notation, which provides an upper bound on the time taken as a function of the input size.
+
+Rules for Solving Time Complexity:
+1. Avoid Constants: When calculating time complexity, constant factors are ignored. For example, in the loop mentioned above, O(5) is simplified to O(1) since the constant does not change with the input size. The focus is on how the algorithm scales, not on fixed numbers.
+2. Consider the Worst Case: Time complexity analysis typically considers the worst-case scenario, as this provides a guarantee on the maximum time an algorithm will take. For instance, in searching algorithms, the worst case occurs when the desired element is at the last position or not present at all.
+
+Ways to measure TIME Complexity:
+1. Big O (O): measures worst case or upper bound. most importane
+2. theta : Measures average case
+3. Omega : Measures best case or lower bound. Negligible case
+
+Measuring T.C. for different cases:
+
+1. single loop till N:
+1st time, 2nd time, 3rd time,...., Nth time
+so O(N) is T.C.
+
+2. Double loop tiil N:
+1st outer loop: (1,2,3,...N)
+2nd outer loop: (1,2,3,...N)
+.
+.
+.
+Nth outer loop: (1,2,3,...N)
+so O(n*n) is T.C.
+
+3. Doubling for loop
+for(i=1, i<n; i=i*2)
+eg = n=25, i = 1,2,4,8,16
+It runs O(Log N) times
+
+3. constant: O(1)
+
+====================================================
+
+Space Complexity: The amount of memory an algorithm uses as a function of the input size. It accounts for the total amount of space required by the algorithm, including the space used by variables, data structures, and function call stacks.
+
+Array of Size N: Consider an array with N elements. The space complexity in this case is O(N), as the memory required scales linearly with the number of elements in the array.
+
+Recursive Function: For a recursive algorithm, the space complexity is determined by the call stack, which grows with the depth of the recursion. For a recursive function that calls itself N times, the space complexity is O(N).
+

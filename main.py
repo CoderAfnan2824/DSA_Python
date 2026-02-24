@@ -3,6 +3,24 @@ import sys
 sys.stdin =  open('input.txt', 'r')
 sys.stdout = open('output.txt', 'w')
 
+def countDigit(n):
+
+        if n == 0:
+            return 1
+
+        temp = n
+        no_of_digits = 0
+
+        while temp > 0:
+            temp //= 10
+            no_of_digits += 1
+        
+        return no_of_digits
+
+print(countDigit(int(input())))
+exit()
+
+
 from collections import defaultdict
 
 # set default value to 0 for int if there's no key
